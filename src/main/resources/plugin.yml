@@ -1,0 +1,11 @@
+name: Task
+description: Plugin created for Good Gaming (SpigotMC Applicant Test).
+version: 1.0
+author: JoshK_
+main: com.good_gaming.task.Task
+commands:
+  balance:
+    description: View your current balance.
+  eco:
+    description: Manage the economy (ie balances of other players).
+    permission: testproject.command.eco
